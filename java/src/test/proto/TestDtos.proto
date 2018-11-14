@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package org.mydotey.codec;
+
+option java_multiple_files = true;
+
+message TestMessage {
+	int32 id = 1;
+	string data = 2;
+}
